@@ -1,6 +1,6 @@
 # Make `eval`-introduced global `var`s redeclarable
 
-Stage: 2.7
+Stage: 3
 
 Author: Shu-yu Guo
 

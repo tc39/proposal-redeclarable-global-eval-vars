@@ -56,7 +56,7 @@ Second, the [[VarNames]] list has to be tracked specially, and is basically an e
 See https://github.com/tc39/ecma262/pull/3226 for the spec changes ([rendering](https://arai-a.github.io/ecma262-compare/?pr=3226)). That PR removes [[VarNames]], effectively reducing the 3 cases above to 2:
 
 1. Redeclare a non-configurable global property with a `let` or `const` of the same name
-1. Redeclare a `let` or `const with a `let or `const` of the same name
+1. Redeclare a `let` or `const` with a `let` or `const` of the same name
 
 The alternative of making sloppy direct eval-introduced vars non-configurable is not considered owing to a much longer history, and its being less likely to be a web compatible change.
 
